@@ -252,7 +252,7 @@ This structure enforces a clear separation of concerns, adhering to DDD principl
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/drf-ddd-template.git
+   git clone https://github.com/onlythompson/drf-ddd-template.git
    cd drf-ddd-template
    ```
 
