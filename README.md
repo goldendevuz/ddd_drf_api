@@ -252,13 +252,13 @@ This structure enforces a clear separation of concerns, adhering to DDD principl
 
 1. Clone this repository:
    ```
-   git clone https://github.com/onlythompson/drf-ddd-template.git
-   cd drf-ddd-template
+   git clone https://github.com/goldendevuz/ddd-drf-api.git
+   cd ddd_drf-api
    ```
 
 2. Create your project structure using the provided script:
    ```
-   python create_project_structure.py your_project_name
+   python3 create_project_structure.py your_project_name
    ```
    This script will create a new directory with your project name and set up the entire project structure as defined in this template.
 
@@ -269,8 +269,8 @@ This structure enforces a clear separation of concerns, adhering to DDD principl
 
 4. Create a virtual environment and activate it:
    ```
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   python3 -m venv env
+   source env/bin/activate  # On Windows, use `venv\Scripts\activate`
    ```
 
 5. Install dependencies:
@@ -280,12 +280,12 @@ This structure enforces a clear separation of concerns, adhering to DDD principl
 
 6. Apply migrations:
    ```
-   python manage.py migrate
+   python3 manage.py migrate
    ```
 
 7. Run the development server:
    ```
-   python manage.py runserver
+   python3 manage.py runserver
    ```
 8. Set up pre-commit hooks:
    ```
@@ -409,9 +409,9 @@ These configurations provide a solid foundation for maintaining code quality and
 
 ## Testing
 
-- Unit tests: `python manage.py test tests.unit`
-- Integration tests: `python manage.py test tests.integration`
-- E2E tests: `python manage.py test tests.e2e`
+- Unit tests: `python3 manage.py test tests.unit`
+- Integration tests: `python3 manage.py test tests.integration`
+- E2E tests: `python3 manage.py test tests.e2e`
 
 ## Deployment
 
